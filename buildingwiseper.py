@@ -146,3 +146,4 @@ try:
 except Exception as e:
     st.error(f"An error occurred while loading or processing the data: {str(e)}")
     st.info("Please make sure the dataset file is in the correct location and contains the expected columns.")
+
